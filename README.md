@@ -18,15 +18,15 @@
 ### Interest Sustainablity Prediction 
 We first predict the interest sustainability of each item, that is, how likely each item will be consumed in the future. Specifically, the goal is to predict whether each item, which appears in the time span of previous data, will be consumed in the future (i.e., in the time span of recent data).
 
-<p align="center"><img src="images/interest_sustainability.png" alt="graph" width="50%"></p>
+<p align="center"><img src="images/data_split.png" alt="graph" width="50%"></p>
 
 ### User Preference Learning with Interest Sustainability
-Then, our goal is to make users closer to the items with high interest sustainability scores in the representation space than those with low interest sustainability scores. We further improve the method with prototypes to relieve the conflicts between the training objectives.
+Then, our goal is to make users closer to the items with high interest sustainability scores in the representation space than those with low interest sustainability scores. Furthermore, We improve the method with prototypes to relieve the conflicts between the training objectives.
 
 <p align="center"><img src="images/Model_comparison.png" alt="graph" width="80%"></p>
 
 ### Recommendation Performance
-
+CRIS consistently shows the best performance compared to the other baseline methods (e.g., sequential, temporal, and conventional models) on 11 real-world datasets. 
 <p align="center"><img src="images/performance.png" alt="graph" width="90%"></p>
 
 
